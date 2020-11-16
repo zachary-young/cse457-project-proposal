@@ -36,8 +36,10 @@
           </div>
         
         <h2>Data Processing</h2>
-        <p class="text-wrap"> Since we need data for many subsets of the tech industry, we are going to need to use various different sources. While they are not yet totally comprehensive, here are the datasets we have found so far, organized by the subset of the general technology market they pertain to:</p>
-        
+        <p class="text-wrap"> Since we have so many different sources of data, we are going to need to do some heavy manual cleanup. Currently, the plan is to decide on a structure for the data and then begin moving data from our separate sources into a central CSV or JSON document.</p>
+        <p class="text-wrap"> Likely we will have two central documents one with each row representing a market segment (e.g. smartphones, computers, cloud computing) and the other representing companies. For the segments, we would want to have data such as which companies hold market share and what percent. For companies, we probably want to store basic data like name, symbol, revenue, ect and some more advanced information such as how their revenue breaks down into market segments.</p>
+        <p class="text-wrap"> After we have these 2 central sources of information, we can automate joining them with a python script before runtime or at runtime with D3, depending on how we decide to architect our visualization.</p>
+        <p class="text-wrap"> </p>
     </div>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
