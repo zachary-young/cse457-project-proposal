@@ -1,0 +1,9 @@
+.alternative {
+  width: 50vh;
+  display: inline-block;
+}
+
+.final {
+  width: 100vh;
+  display: inline-block;
+}
